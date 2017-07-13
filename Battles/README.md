@@ -5,7 +5,7 @@ Groups of characters decided to make a battle. Help them to figure out wha group
 Rules:
 
 Each character have its own power: A = 1, B = 2, ... Y = 25, Z = 26
-Only capital chatacters can and will participate a battle.
+Only capital characters can and will participate a battle.
 Only two groups to a fight.
 Group whose total power (A + B + C + ...) is bigger wins.
 If the powers are equal, it's a tie.
