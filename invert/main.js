@@ -11,9 +11,6 @@ function invert(arr){
   return res;
 }
 
-console.log(invert([1,2,3,4,5]))
-console.log(invert([-1,-2,-3,-4,-5]))
-
 if(typeof module !== undefined) {
   module.exports = invert;
 }

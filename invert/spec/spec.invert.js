@@ -12,7 +12,7 @@ describe('invert()', function(){
     let arr = [];
     expect(invert(arr)).to.eql([]);
   });
-  it('returns the correct ans for positive nums' , function () {
+  it('returns the correct ans for positive nums', function () {
     let arr = [1,2,3,4,5];
     expect(invert(arr)).to.eql([-1,-2,-3,-4,-5])
   });

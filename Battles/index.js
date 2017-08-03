@@ -5,27 +5,19 @@ function battle(x, y) {
   "S": 19, "T": 20, "U": 21, "V": 22, "W": 23, "X": 24, "Y": 25,
   "Z": 26}
 
-
-
-
   //split down x and y into indvidual characters & remove any lowercase
   let singleX = x.replace( /[^A-Z]/g, '' ).split("");
   let singleY= y.replace( /[^A-Z]/g, '' ).split("");
 
-  console.log(typeof singleX)
   let result = 0;
   //loop through x and y variables and return property from chars
-  singleX.forEach((el, i, char) =>{
-    console.log(el);
-    for(let key in chars){
-      if(key ===chars[el]){
-        result += el;
-        return result[i];
-      }
-    }
+  singleX.map((el, i, arr) =>{
+
   });
 
-  return result;
+
+
+  return;
 }
 
 
