@@ -23,7 +23,4 @@ function battle(x, y) {
 
 }
 
-
-console.log(battle("OnE",'TWO'));
-
 module.exports=battle;
