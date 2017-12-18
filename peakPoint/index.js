@@ -1,19 +1,13 @@
 function sortGrades(lst){
-
-
-
-  let stripped = lst.map((el,i,array) => {
-  var result = stripped.forEach((el,i,array) => {
-      console.log(el);
-      console.log(array);
-
-    })
-     return result;
+  let res = [];
+  lst.map((el, index) => {
+    num = el.substr(1).split()
+    res.push(num);
   });
-
-  return stripped;
+  let merged = [].concat.apply([], res);
+  return merged.sort();
 }
 
-console.log((sortGrades(["V7", "V12", "V1"]), ["V1", "V7", "V12"]));
+console.log(sortGrades(["V7", "V12", "V1"]));
 
 module.exports = sortGrades;

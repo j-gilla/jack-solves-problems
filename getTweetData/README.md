@@ -1,6 +1,6 @@
 1## Get certain data from a tweet
 
-The challenge is to implement which returns us an object containing data from a tweet
+The challenge is to implement a function which returns us an object containing data from a tweet
 
 We want easy access to the following data
 

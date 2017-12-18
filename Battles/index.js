@@ -10,10 +10,10 @@ function battle(x, y) {
 
   let xRes = 0; let yRes = 0;
 
-  singleX.map((el,i,arr) =>{xRes += chars[el];
+  singleX.map((el) =>{xRes += chars[el];
     return xRes;
   });
-  singleY.map((el,i,arr) =>{yRes += chars[el];
+  singleY.map((el) =>{yRes += chars[el];
     return yRes;
   });
 

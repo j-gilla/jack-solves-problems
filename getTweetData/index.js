@@ -1,4 +1,10 @@
-function getTweetData(args){
+function getTweetData(str){
+
+  let res = {};
+
+
+
+  return res;
 
 }
 

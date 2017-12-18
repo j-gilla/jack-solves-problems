@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./*/spec/*/.js --compilers js:babel-register --recursive"
+    "test": "mocha ./spec --compilers js:babel-register --recursive"
   },
   "license": "MIT",
   "dependencies": {
